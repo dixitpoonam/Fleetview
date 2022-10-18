@@ -1,0 +1,1166 @@
+/* CSS For Modal Popup */
+#pritotal, #priplaced, #priintransit, #pridetained, #pricompleted {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#pritotal  tbody tr.even:hover, #priplaced  tbody tr.even:hover,
+	#priintransit tbody tr.even:hover, #pritotal tbody tr.even td.highlighted,
+	#priplaced tbody tr.even td.highlighted, #priintransit tbody tr.even td.highlighted,
+	#pridetained tbody tr.even td.highlighted, #priintransit tbody tr.even td.highlighted,
+	#pricompleted tbody tr.even td.highlighted {
+	background-color: #ddd;
+}
+
+#pritotal tbody tr.odd:hover, #priplaced tbody tr.odd:hover,
+	#priintransit tbody tr.odd:hover, #pritotal tbody tr.odd td.highlighted,
+	#priplaced tbody tr.odd td.highlighted, #priintransit tbody tr.odd td.highlighted,
+	#pridetained tbody tr.odd td.highlighted, #pricompleted tbody tr.odd td.highlighted
+	{
+	background-color: #ddd;
+}
+
+#pritotal  tr.even:hover, #priplaced  tr.even:hover, #priintransit tr.even:hover,
+	#pridetained tr.even:hover, #pricompleted tr.even:hover {
+	background-color: #ddd;
+}
+
+#pritotal tr.even:hover td.sorting_1, #priplaced tr.even:hover td.sorting_1,
+	#priintransit tr.even:hover td.sorting_1, #pridetained tr.even:hover td.sorting_1,
+	#pricompleted tr.even:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#pritotal tr.even:hover td.sorting_2, #priplaced tr.even:hover td.sorting_2,
+	#priintransit tr.even:hover td.sorting_2, #pridetained tr.even:hover td.sorting_2,
+	#pricompleted tr.even:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#pritotal tr.even:hover td.sorting_3, #priplaced tr.even:hover td.sorting_3,
+	#priintransit tr.even:hover td.sorting_3, #pridetained tr.even:hover td.sorting_3,
+	#pricompleted tr.even:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#pritotal td, #priplaced td, #priintransit td, #pridetained td,
+	#pricompleted td, #pritotal th, #priplaced th, #priintransit th,
+	#pridetained th, #pricompleted th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#pritotal tr.odd:hover, #priplaced tr.odd:hover, #priintransit tr.odd:hover,
+	#pridetained tr.odd:hover, #pricompleted tr.odd:hover {
+	background-color: #ddd;
+}
+
+#pritotal tr.odd:hover td.sorting_1, #priplaced tr.odd:hover td.sorting_1,
+	#priintransit tr.odd:hover td.sorting_1, #pridetained tr.odd:hover td.sorting_1,
+	#pricompleted tr.odd:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#pritotal tr.odd:hover td.sorting_2, #priplaced tr.odd:hover td.sorting_2,
+	#priintransit tr.odd:hover td.sorting_2, #pridetained tr.odd:hover td.sorting_2,
+	#pricompleted tr.odd:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#pritotal tr.odd:hover td.sorting_3, #priplaced tr.odd:hover td.sorting_3,
+	#priintransit tr.odd:hover td.sorting_3, #pridetained tr.odd:hover td.sorting_3,
+	#pricompleted tr.odd:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#pritotal th, #priplaced th, #priintransit th, #pridetained th,
+	#pricompleted th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #66b3ff;
+	color: white;
+}
+
+#pritotal td, #priplaced td, #priintransit td, #pridetained td,
+	#pricompleted td, #pritotal th, #priplaced th, #priintransit th,
+	#pridetained th, #pricompleted th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+/* ForETA */
+#prietaontime, #prietadelay, #examplerd1 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#prietaontime  tbody tr.even:hover, #prietadelay  tbody tr.even:hover,
+	#examplerd1 tbody tr.even:hover, #prietaontime tbody tr.even td.highlighted,
+	#prietadelay tbody tr.even td.highlighted, #examplerd1 tbody tr.even td.highlighted
+	{
+	background-color: #ddd;
+}
+
+#prietaontime tbody tr.odd:hover, #prietadelay tbody tr.odd:hover,
+	#examplerd1 tbody tr.odd:hover, #prietaontime tbody tr.odd td.highlighted,
+	#prietadelay tbody tr.odd td.highlighted, #examplerd1 tbody tr.odd td.highlighted
+	{
+	background-color: #ddd;
+}
+
+#prietaontime  tr.even:hover, #prietadelay  tr.even:hover, #examplerd1 tr.even:hover
+	{
+	background-color: #ddd;
+}
+
+#prietaontime tr.even:hover td.sorting_1, #prietadelay tr.even:hover td.sorting_1,
+	#examplerd1 tr.even:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#prietaontime tr.even:hover td.sorting_2, #prietadelay tr.even:hover td.sorting_2,
+	#examplerd1 tr.even:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#prietaontime tr.even:hover td.sorting_3, #prietadelay tr.even:hover td.sorting_3,
+	#examplerd1 tr.even:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#prietaontime td, #prietadelay td, #examplerd1 td, #prietaontime th,
+	#prietadelay th, #examplerd1 th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#prietaontime tr.odd:hover, #prietadelay tr.odd:hover, #examplerd1 tr.odd:hover
+	{
+	background-color: #ddd;
+}
+
+#prietaontime tr.odd:hover td.sorting_1, #prietadelay tr.odd:hover td.sorting_1,
+	#examplerd1 tr.odd:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#prietaontime tr.odd:hover td.sorting_2, #prietadelay tr.odd:hover td.sorting_2,
+	#examplerd1 tr.odd:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#prietaontime tr.odd:hover td.sorting_3, #prietadelay tr.odd:hover td.sorting_3,
+	#examplerd1 tr.odd:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#prietaontime th, #prietadelay th, #examplerd1 th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #66b3ff;
+	color: white;
+}
+
+#prietaontime td, #prietadelay td, #examplerd1 td, #prietaontime th,
+	#prietadelay th, #examplerd1 th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+/* Primary Compilance Data */
+#prigreen, #priamber, #prired, #prinodata, #pricompleted {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#prigreen  tbody tr.even:hover, #priamber  tbody tr.even:hover, #prired tbody tr.even:hover,
+	#prigreen tbody tr.even td.highlighted, #priamber tbody tr.even td.highlighted,
+	#prired tbody tr.even td.highlighted, #prinodata tbody tr.even td.highlighted,
+	#prired tbody tr.even td.highlighted, #pricompleted tbody tr.even td.highlighted
+	{
+	background-color: #ddd;
+}
+
+#prigreen tbody tr.odd:hover, #priamber tbody tr.odd:hover, #prired tbody tr.odd:hover,
+	#prigreen tbody tr.odd td.highlighted, #priamber tbody tr.odd td.highlighted,
+	#prired tbody tr.odd td.highlighted, #prinodata tbody tr.odd td.highlighted,
+	#pricompleted tbody tr.odd td.highlighted {
+	background-color: #ddd;
+}
+
+#prigreen  tr.even:hover, #priamber  tr.even:hover, #prired tr.even:hover,
+	#prinodata tr.even:hover, #pricompleted tr.even:hover {
+	background-color: #ddd;
+}
+
+#prigreen tr.even:hover td.sorting_1, #priamber tr.even:hover td.sorting_1,
+	#prired tr.even:hover td.sorting_1, #prinodata tr.even:hover td.sorting_1,
+	#pricompleted tr.even:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#prigreen tr.even:hover td.sorting_2, #priamber tr.even:hover td.sorting_2,
+	#prired tr.even:hover td.sorting_2, #prinodata tr.even:hover td.sorting_2,
+	#pricompleted tr.even:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#prigreen tr.even:hover td.sorting_3, #priamber tr.even:hover td.sorting_3,
+	#prired tr.even:hover td.sorting_3, #prinodata tr.even:hover td.sorting_3,
+	#pricompleted tr.even:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#prigreen td, #priamber td, #prired td, #prinodata td, #pricompleted td,
+	#prigreen th, #priamber th, #prired th, #prinodata th, #pricompleted th
+	{
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#prigreen tr.odd:hover, #priamber tr.odd:hover, #prired tr.odd:hover,
+	#prinodata tr.odd:hover, #pricompleted tr.odd:hover {
+	background-color: #ddd;
+}
+
+#prigreen tr.odd:hover td.sorting_1, #priamber tr.odd:hover td.sorting_1,
+	#prired tr.odd:hover td.sorting_1, #prinodata tr.odd:hover td.sorting_1,
+	#pricompleted tr.odd:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#prigreen tr.odd:hover td.sorting_2, #priamber tr.odd:hover td.sorting_2,
+	#prired tr.odd:hover td.sorting_2, #prinodata tr.odd:hover td.sorting_2,
+	#pricompleted tr.odd:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#prigreen tr.odd:hover td.sorting_3, #priamber tr.odd:hover td.sorting_3,
+	#prired tr.odd:hover td.sorting_3, #prinodata tr.odd:hover td.sorting_3,
+	#pricompleted tr.odd:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#prigreen th, #priamber th, #prired th, #prinodata th, #pricompleted th
+	{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #66b3ff;
+	color: white;
+}
+
+#prigreen td, #priamber td, #prired td, #prinodata td, #pricompleted td,
+	#prigreen th, #priamber th, #prired th, #prinodata th, #pricompleted th
+	{
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#Rsecamber, #Rsecred, #Rsecgreen {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#Rsecamber  tbody tr.even:hover, #Rsecred  tbody tr.even:hover,
+	#Rsecgreen tbody tr.even:hover, #Rsecamber tbody tr.even td.highlighted,
+	#Rsecred tbody tr.even td.highlighted, #Rsecgreen tbody tr.even td.highlighted
+	{
+	background-color: #ddd;
+}
+
+#Rsecamber tbody tr.odd:hover, #Rsecred tbody tr.odd:hover, #Rsecgreen tbody tr.odd:hover,
+	#Rsecamber tbody tr.odd td.highlighted, #Rsecred tbody tr.odd td.highlighted,
+	#Rsecgreen tbody tr.odd td.highlighted {
+	background-color: #ddd;
+}
+
+#Rsecamber  tr.even:hover, #Rsecred  tr.even:hover, #Rsecgreen tr.even:hover
+	{
+	background-color: #ddd;
+}
+
+#Rsecamber tr.even:hover td.sorting_1, #Rsecred tr.even:hover td.sorting_1,
+	#Rsecgreen tr.even:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#Rsecamber tr.even:hover td.sorting_2, #Rsecred tr.even:hover td.sorting_2,
+	#Rsecgreen tr.even:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#Rsecamber tr.even:hover td.sorting_3, #Rsecred tr.even:hover td.sorting_3,
+	#Rsecgreen tr.even:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#Rsecamber td, #Rsecred td, #Rsecgreen td, #Rsecamber th, #Rsecred th,
+	#Rsecgreen th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#Rsecamber tr.odd:hover, #Rsecred tr.odd:hover, #Rsecgreen tr.odd:hover
+	{
+	background-color: #ddd;
+}
+
+#Rsecamber tr.odd:hover td.sorting_1, #Rsecred tr.odd:hover td.sorting_1,
+	#Rsecgreen tr.odd:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#Rsecamber tr.odd:hover td.sorting_2, #Rsecred tr.odd:hover td.sorting_2,
+	#Rsecgreen tr.odd:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#Rsecamber tr.odd:hover td.sorting_3, #Rsecred tr.odd:hover td.sorting_3,
+	#Rsecgreen tr.odd:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#Rsecamber th, #Rsecred th, #Rsecgreen th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #66b3ff;
+	color: white;
+}
+
+#Rsecamber td, #Rsecred td, #Rsecgreen td, #Rsecamber th, #Rsecred th,
+	#Rsecgreen th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+/* CSS For Modal Popup */
+#ECompbar, #WCompbar, #NCompbar, #SCompbar, #secshipicomplete,
+	#ModalCompAmber {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#ECompbar  tbody tr.even:hover, #WCompbar  tbody tr.even:hover,
+	#NCompbar tbody tr.even:hover, #ECompbar tbody tr.even td.highlighted,
+	#WCompbar tbody tr.even td.highlighted, #NCompbar tbody tr.even td.highlighted,
+	#SCompbar tbody tr.even td.highlighted, #NCompbar tbody tr.even td.highlighted,
+	#secshipicomplete tbody tr.even td.highlighted {
+	background-color: #ddd;
+}
+
+#ECompbar tbody tr.odd:hover, #WCompbar tbody tr.odd:hover, #NCompbar tbody tr.odd:hover,
+	#ECompbar tbody tr.odd td.highlighted, #WCompbar tbody tr.odd td.highlighted,
+	#NCompbar tbody tr.odd td.highlighted, #SCompbar tbody tr.odd td.highlighted,
+	#secshipicomplete tbody tr.odd td.highlighted {
+	background-color: #ddd;
+}
+
+#ECompbar  tr.even:hover, #WCompbar  tr.even:hover, #NCompbar tr.even:hover,
+	#SCompbar tr.even:hover, #secshipicomplete tr.even:hover {
+	background-color: #ddd;
+}
+
+#ECompbar tr.even:hover td.sorting_1, #WCompbar tr.even:hover td.sorting_1,
+	#NCompbar tr.even:hover td.sorting_1, #SCompbar tr.even:hover td.sorting_1,
+	#secshipicomplete tr.even:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#ECompbar tr.even:hover td.sorting_2, #WCompbar tr.even:hover td.sorting_2,
+	#NCompbar tr.even:hover td.sorting_2, #SCompbar tr.even:hover td.sorting_2,
+	#secshipicomplete tr.even:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#ECompbar tr.even:hover td.sorting_3, #WCompbar tr.even:hover td.sorting_3,
+	#NCompbar tr.even:hover td.sorting_3, #SCompbar tr.even:hover td.sorting_3,
+	#secshipicomplete tr.even:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#ECompbar td, #WCompbar td, #NCompbar td, #SCompbar td,
+	#secshipicomplete td, #ECompbar th, #WCompbar th, #NCompbar th,
+	#SCompbar th, #secshipicomplete th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#ECompbar tr.odd:hover, #WCompbar tr.odd:hover, #NCompbar tr.odd:hover,
+	#SCompbar tr.odd:hover, #secshipicomplete tr.odd:hover {
+	background-color: #ddd;
+}
+
+#ECompbar tr.odd:hover td.sorting_1, #WCompbar tr.odd:hover td.sorting_1,
+	#NCompbar tr.odd:hover td.sorting_1, #SCompbar tr.odd:hover td.sorting_1,
+	#secshipicomplete tr.odd:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#ECompbar tr.odd:hover td.sorting_2, #WCompbar tr.odd:hover td.sorting_2,
+	#NCompbar tr.odd:hover td.sorting_2, #SCompbar tr.odd:hover td.sorting_2,
+	#secshipicomplete tr.odd:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#ECompbar tr.odd:hover td.sorting_3, #WCompbar tr.odd:hover td.sorting_3,
+	#NCompbar tr.odd:hover td.sorting_3, #SCompbar tr.odd:hover td.sorting_3,
+	#secshipicomplete tr.odd:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#ECompbar th, #WCompbar th, #NCompbar th, #SCompbar th,
+	#secshipicomplete th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #66b3ff;
+	color: white;
+}
+
+#ECompbar td, #WCompbar td, #NCompbar td, #SCompbar td,
+	#secshipicomplete td, #ECompbar th, #WCompbar th, #NCompbar th,
+	#SCompbar th, #secshipicomplete th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#EGreenCompbar, #EAmberCompbar, #ERedCompbar, #ENoDataCompbar {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#EGreenCompbar  tbody tr.even:hover, #EAmberCompbar  tbody tr.even:hover,
+	#ERedCompbar tbody tr.even:hover, #EGreenCompbar tbody tr.even td.highlighted,
+	#EAmberCompbar tbody tr.even td.highlighted, #ERedCompbar tbody tr.even td.highlighted,
+	#ENoDataCompbar tbody tr.even td.highlighted, #ERedCompbar tbody tr.even td.highlighted,
+	#pricompleted tbody tr.even td.highlighted {
+	background-color: #ddd;
+}
+
+#EGreenCompbar tbody tr.odd:hover, #EAmberCompbar tbody tr.odd:hover,
+	#ERedCompbar tbody tr.odd:hover, #EGreenCompbar tbody tr.odd td.highlighted,
+	#EAmberCompbar tbody tr.odd td.highlighted, #ERedCompbar tbody tr.odd td.highlighted,
+	#ENoDataCompbar tbody tr.odd td.highlighted tbody tr.odd td.highlighted
+	{
+	background-color: #ddd;
+}
+
+#EGreenCompbar  tr.even:hover, #EAmberCompbar  tr.even:hover,
+	#ERedCompbar tr.even:hover, #ENoDataCompbar tr.even:hover tr.even:hover
+	{
+	background-color: #ddd;
+}
+
+#EGreenCompbar tr.even:hover td.sorting_1, #EAmberCompbar tr.even:hover td.sorting_1,
+	#ERedCompbar tr.even:hover td.sorting_1, #ENoDataCompbar tr.even:hover td.sorting_1,
+	#pricompleted tr.even:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#EGreenCompbar tr.even:hover td.sorting_2, #EAmberCompbar tr.even:hover td.sorting_2,
+	#ERedCompbar tr.even:hover td.sorting_2, #ENoDataCompbar tr.even:hover td.sorting_2,
+	#pricompleted tr.even:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#EGreenCompbar tr.even:hover td.sorting_3, #EAmberCompbar tr.even:hover td.sorting_3,
+	#ERedCompbar tr.even:hover td.sorting_3, #ENoDataCompbar tr.even:hover td.sorting_3,
+	#pricompleted tr.even:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#EGreenCompbar td, #EAmberCompbar td, #ERedCompbar td, #ENoDataCompbar td,
+	#pricompleted td, #EGreenCompbar th, #EAmberCompbar th, #ERedCompbar th,
+	#ENoDataCompbar th th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#EGreenCompbar tr.odd:hover, #EAmberCompbar tr.odd:hover, #ERedCompbar tr.odd:hover,
+	#ENoDataCompbar tr.odd:hover tr.odd:hover {
+	background-color: #ddd;
+}
+
+#EGreenCompbar tr.odd:hover td.sorting_1, #EAmberCompbar tr.odd:hover td.sorting_1,
+	#ERedCompbar tr.odd:hover td.sorting_1, #ENoDataCompbar tr.odd:hover td.sorting_1,
+	#pricompleted tr.odd:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#EGreenCompbar tr.odd:hover td.sorting_2, #EAmberCompbar tr.odd:hover td.sorting_2,
+	#ERedCompbar tr.odd:hover td.sorting_2, #ENoDataCompbar tr.odd:hover td.sorting_2,
+	#pricompleted tr.odd:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#EGreenCompbar tr.odd:hover td.sorting_3, #EAmberCompbar tr.odd:hover td.sorting_3,
+	#ERedCompbar tr.odd:hover td.sorting_3, #ENoDataCompbar tr.odd:hover td.sorting_3,
+	#pricompleted tr.odd:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#EGreenCompbar th, #EAmberCompbar th, #ERedCompbar th, #ENoDataCompbar th,
+	#pricompleted th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #66b3ff;
+	color: white;
+}
+
+#EGreenCompbar td, #EAmberCompbar td, #ERedCompbar td, #ENoDataCompbar td,
+	#pricompleted td, #EGreenCompbar th, #EAmberCompbar th, #ERedCompbar th,
+	#ENoDataCompbar th th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#WGreenCompbar, #WAmberCompbar, #WRedCompbar, #WNoDataCompbar {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#WGreenCompbar  tbody tr.even:hover, #WAmberCompbar  tbody tr.even:hover,
+	#WRedCompbar tbody tr.even:hover, #WGreenCompbar tbody tr.even td.highlighted,
+	#WAmberCompbar tbody tr.even td.highlighted, #WRedCompbar tbody tr.even td.highlighted,
+	#WNoDataCompbar tbody tr.even td.highlighted, #WRedCompbar tbody tr.even td.highlighted,
+	#pricompleted tbody tr.even td.highlighted {
+	background-color: #ddd;
+}
+
+#WGreenCompbar tbody tr.odd:hover, #WAmberCompbar tbody tr.odd:hover,
+	#WRedCompbar tbody tr.odd:hover, #WGreenCompbar tbody tr.odd td.highlighted,
+	#WAmberCompbar tbody tr.odd td.highlighted, #WRedCompbar tbody tr.odd td.highlighted,
+	#WNoDataCompbar tbody tr.odd td.highlighted tbody tr.odd td.highlighted
+	{
+	background-color: #ddd;
+}
+
+#WGreenCompbar  tr.even:hover, #WAmberCompbar  tr.even:hover,
+	#WRedCompbar tr.even:hover, #WNoDataCompbar tr.even:hover tr.even:hover
+	{
+	background-color: #ddd;
+}
+
+#WGreenCompbar tr.even:hover td.sorting_1, #WAmberCompbar tr.even:hover td.sorting_1,
+	#WRedCompbar tr.even:hover td.sorting_1, #WNoDataCompbar tr.even:hover td.sorting_1,
+	#pricompleted tr.even:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#WGreenCompbar tr.even:hover td.sorting_2, #WAmberCompbar tr.even:hover td.sorting_2,
+	#WRedCompbar tr.even:hover td.sorting_2, #WNoDataCompbar tr.even:hover td.sorting_2,
+	#pricompleted tr.even:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#WGreenCompbar tr.even:hover td.sorting_3, #WAmberCompbar tr.even:hover td.sorting_3,
+	#WRedCompbar tr.even:hover td.sorting_3, #WNoDataCompbar tr.even:hover td.sorting_3,
+	#pricompleted tr.even:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#WGreenCompbar td, #WAmberCompbar td, #WRedCompbar td, #WNoDataCompbar td,
+	#pricompleted td, #WGreenCompbar th, #WAmberCompbar th, #WRedCompbar th,
+	#WNoDataCompbar th th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#WGreenCompbar tr.odd:hover, #WAmberCompbar tr.odd:hover, #WRedCompbar tr.odd:hover,
+	#WNoDataCompbar tr.odd:hover tr.odd:hover {
+	background-color: #ddd;
+}
+
+#WGreenCompbar tr.odd:hover td.sorting_1, #WAmberCompbar tr.odd:hover td.sorting_1,
+	#WRedCompbar tr.odd:hover td.sorting_1, #WNoDataCompbar tr.odd:hover td.sorting_1,
+	#pricompleted tr.odd:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#WGreenCompbar tr.odd:hover td.sorting_2, #WAmberCompbar tr.odd:hover td.sorting_2,
+	#WRedCompbar tr.odd:hover td.sorting_2, #WNoDataCompbar tr.odd:hover td.sorting_2,
+	#pricompleted tr.odd:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#WGreenCompbar tr.odd:hover td.sorting_3, #WAmberCompbar tr.odd:hover td.sorting_3,
+	#WRedCompbar tr.odd:hover td.sorting_3, #WNoDataCompbar tr.odd:hover td.sorting_3,
+	#pricompleted tr.odd:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#WGreenCompbar th, #WAmberCompbar th, #WRedCompbar th, #WNoDataCompbar th,
+	#pricompleted th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #66b3ff;
+	color: white;
+}
+
+#WGreenCompbar td, #WAmberCompbar td, #WRedCompbar td, #WNoDataCompbar td,
+	#pricompleted td, #WGreenCompbar th, #WAmberCompbar th, #WRedCompbar th,
+	#WNoDataCompbar th th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#NGreenCompbar, #NAmberCompbar, #NRedCompbar, #NNoDataCompbar {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#NGreenCompbar  tbody tr.even:hover, #NAmberCompbar  tbody tr.even:hover,
+	#NRedCompbar tbody tr.even:hover, #NGreenCompbar tbody tr.even td.highlighted,
+	#NAmberCompbar tbody tr.even td.highlighted, #NRedCompbar tbody tr.even td.highlighted,
+	#NNoDataCompbar tbody tr.even td.highlighted, #NRedCompbar tbody tr.even td.highlighted,
+	#pricompleted tbody tr.even td.highlighted {
+	background-color: #ddd;
+}
+
+#NGreenCompbar tbody tr.odd:hover, #NAmberCompbar tbody tr.odd:hover,
+	#NRedCompbar tbody tr.odd:hover, #NGreenCompbar tbody tr.odd td.highlighted,
+	#NAmberCompbar tbody tr.odd td.highlighted, #NRedCompbar tbody tr.odd td.highlighted,
+	#NNoDataCompbar tbody tr.odd td.highlighted tbody tr.odd td.highlighted
+	{
+	background-color: #ddd;
+}
+
+#NGreenCompbar  tr.even:hover, #NAmberCompbar  tr.even:hover,
+	#NRedCompbar tr.even:hover, #NNoDataCompbar tr.even:hover tr.even:hover
+	{
+	background-color: #ddd;
+}
+
+#NGreenCompbar tr.even:hover td.sorting_1, #NAmberCompbar tr.even:hover td.sorting_1,
+	#NRedCompbar tr.even:hover td.sorting_1, #NNoDataCompbar tr.even:hover td.sorting_1,
+	#pricompleted tr.even:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#NGreenCompbar tr.even:hover td.sorting_2, #NAmberCompbar tr.even:hover td.sorting_2,
+	#NRedCompbar tr.even:hover td.sorting_2, #NNoDataCompbar tr.even:hover td.sorting_2,
+	#pricompleted tr.even:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#NGreenCompbar tr.even:hover td.sorting_3, #NAmberCompbar tr.even:hover td.sorting_3,
+	#NRedCompbar tr.even:hover td.sorting_3, #NNoDataCompbar tr.even:hover td.sorting_3,
+	#pricompleted tr.even:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#NGreenCompbar td, #NAmberCompbar td, #NRedCompbar td, #NNoDataCompbar td,
+	#pricompleted td, #NGreenCompbar th, #NAmberCompbar th, #NRedCompbar th,
+	#NNoDataCompbar th th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#NGreenCompbar tr.odd:hover, #NAmberCompbar tr.odd:hover, #NRedCompbar tr.odd:hover,
+	#NNoDataCompbar tr.odd:hover tr.odd:hover {
+	background-color: #ddd;
+}
+
+#NGreenCompbar tr.odd:hover td.sorting_1, #NAmberCompbar tr.odd:hover td.sorting_1,
+	#NRedCompbar tr.odd:hover td.sorting_1, #NNoDataCompbar tr.odd:hover td.sorting_1,
+	#pricompleted tr.odd:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#NGreenCompbar tr.odd:hover td.sorting_2, #NAmberCompbar tr.odd:hover td.sorting_2,
+	#NRedCompbar tr.odd:hover td.sorting_2, #NNoDataCompbar tr.odd:hover td.sorting_2,
+	#pricompleted tr.odd:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#NGreenCompbar tr.odd:hover td.sorting_3, #NAmberCompbar tr.odd:hover td.sorting_3,
+	#NRedCompbar tr.odd:hover td.sorting_3, #NNoDataCompbar tr.odd:hover td.sorting_3,
+	#pricompleted tr.odd:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#NGreenCompbar th, #NAmberCompbar th, #NRedCompbar th, #NNoDataCompbar th,
+	#pricompleted th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #66b3ff;
+	color: white;
+}
+
+#NGreenCompbar td, #NAmberCompbar td, #NRedCompbar td, #NNoDataCompbar td,
+	#pricompleted td, #NGreenCompbar th, #NAmberCompbar th, #NRedCompbar th,
+	#NNoDataCompbar th th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#SGreenCompbar, #SAmberCompbar, #SRedCompbar, #SNoDataCompbar {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#SGreenCompbar  tbody tr.even:hover, #SAmberCompbar  tbody tr.even:hover,
+	#SRedCompbar tbody tr.even:hover, #SGreenCompbar tbody tr.even td.highlighted,
+	#SAmberCompbar tbody tr.even td.highlighted, #SRedCompbar tbody tr.even td.highlighted,
+	#SNoDataCompbar tbody tr.even td.highlighted, #SRedCompbar tbody tr.even td.highlighted,
+	#pricompleted tbody tr.even td.highlighted {
+	background-color: #ddd;
+}
+
+#SGreenCompbar tbody tr.odd:hover, #SAmberCompbar tbody tr.odd:hover,
+	#SRedCompbar tbody tr.odd:hover, #SGreenCompbar tbody tr.odd td.highlighted,
+	#SAmberCompbar tbody tr.odd td.highlighted, #SRedCompbar tbody tr.odd td.highlighted,
+	#SNoDataCompbar tbody tr.odd td.highlighted tbody tr.odd td.highlighted
+	{
+	background-color: #ddd;
+}
+
+#SGreenCompbar  tr.even:hover, #SAmberCompbar  tr.even:hover,
+	#SRedCompbar tr.even:hover, #SNoDataCompbar tr.even:hover tr.even:hover
+	{
+	background-color: #ddd;
+}
+
+#SGreenCompbar tr.even:hover td.sorting_1, #SAmberCompbar tr.even:hover td.sorting_1,
+	#SRedCompbar tr.even:hover td.sorting_1, #SNoDataCompbar tr.even:hover td.sorting_1,
+	#pricompleted tr.even:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#SGreenCompbar tr.even:hover td.sorting_2, #SAmberCompbar tr.even:hover td.sorting_2,
+	#SRedCompbar tr.even:hover td.sorting_2, #SNoDataCompbar tr.even:hover td.sorting_2,
+	#pricompleted tr.even:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#SGreenCompbar tr.even:hover td.sorting_3, #SAmberCompbar tr.even:hover td.sorting_3,
+	#SRedCompbar tr.even:hover td.sorting_3, #SNoDataCompbar tr.even:hover td.sorting_3,
+	#pricompleted tr.even:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#SGreenCompbar td, #SAmberCompbar td, #SRedCompbar td, #SNoDataCompbar td,
+	#pricompleted td, #SGreenCompbar th, #SAmberCompbar th, #SRedCompbar th,
+	#SNoDataCompbar th th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#SGreenCompbar tr.odd:hover, #SAmberCompbar tr.odd:hover, #SRedCompbar tr.odd:hover,
+	#SNoDataCompbar tr.odd:hover tr.odd:hover {
+	background-color: #ddd;
+}
+
+#SGreenCompbar tr.odd:hover td.sorting_1, #SAmberCompbar tr.odd:hover td.sorting_1,
+	#SRedCompbar tr.odd:hover td.sorting_1, #SNoDataCompbar tr.odd:hover td.sorting_1,
+	#pricompleted tr.odd:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#SGreenCompbar tr.odd:hover td.sorting_2, #SAmberCompbar tr.odd:hover td.sorting_2,
+	#SRedCompbar tr.odd:hover td.sorting_2, #SNoDataCompbar tr.odd:hover td.sorting_2,
+	#pricompleted tr.odd:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#SGreenCompbar tr.odd:hover td.sorting_3, #SAmberCompbar tr.odd:hover td.sorting_3,
+	#SRedCompbar tr.odd:hover td.sorting_3, #SNoDataCompbar tr.odd:hover td.sorting_3,
+	#pricompleted tr.odd:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#SGreenCompbar th, #SAmberCompbar th, #SRedCompbar th, #SNoDataCompbar th,
+	#pricompleted th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #66b3ff;
+	color: white;
+}
+
+#SGreenCompbar td, #SAmberCompbar td, #SRedCompbar td, #SNoDataCompbar td,
+	#pricompleted td, #SGreenCompbar th, #SAmberCompbar th, #SRedCompbar th,
+	#SNoDataCompbar th th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+/* -------------------- */
+#EGreenRunbar, #EAmberRunbar, #ERedRunbar, #ENoDataRunbar {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#EGreenRunbar  tbody tr.even:hover, #EAmberRunbar  tbody tr.even:hover,
+	#ERedRunbar tbody tr.even:hover, #EGreenRunbar tbody tr.even td.highlighted,
+	#EAmberRunbar tbody tr.even td.highlighted, #ERedRunbar tbody tr.even td.highlighted,
+	#ENoDataRunbar tbody tr.even td.highlighted, #ERedRunbar tbody tr.even td.highlighted,
+	#pricompleted tbody tr.even td.highlighted {
+	background-color: #ddd;
+}
+
+#EGreenRunbar tbody tr.odd:hover, #EAmberRunbar tbody tr.odd:hover,
+	#ERedRunbar tbody tr.odd:hover, #EGreenRunbar tbody tr.odd td.highlighted,
+	#EAmberRunbar tbody tr.odd td.highlighted, #ERedRunbar tbody tr.odd td.highlighted,
+	#ENoDataRunbar tbody tr.odd td.highlighted tbody tr.odd td.highlighted
+	{
+	background-color: #ddd;
+}
+
+#EGreenRunbar  tr.even:hover, #EAmberRunbar  tr.even:hover, #ERedRunbar tr.even:hover,
+	#ENoDataRunbar tr.even:hover tr.even:hover {
+	background-color: #ddd;
+}
+
+#EGreenRunbar tr.even:hover td.sorting_1, #EAmberRunbar tr.even:hover td.sorting_1,
+	#ERedRunbar tr.even:hover td.sorting_1, #ENoDataRunbar tr.even:hover td.sorting_1,
+	#pricompleted tr.even:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#EGreenRunbar tr.even:hover td.sorting_2, #EAmberRunbar tr.even:hover td.sorting_2,
+	#ERedRunbar tr.even:hover td.sorting_2, #ENoDataRunbar tr.even:hover td.sorting_2,
+	#pricompleted tr.even:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#EGreenRunbar tr.even:hover td.sorting_3, #EAmberRunbar tr.even:hover td.sorting_3,
+	#ERedRunbar tr.even:hover td.sorting_3, #ENoDataRunbar tr.even:hover td.sorting_3,
+	#pricompleted tr.even:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#EGreenRunbar td, #EAmberRunbar td, #ERedRunbar td, #ENoDataRunbar td,
+	#pricompleted td, #EGreenRunbar th, #EAmberRunbar th, #ERedRunbar th,
+	#ENoDataRunbar th th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#EGreenRunbar tr.odd:hover, #EAmberRunbar tr.odd:hover, #ERedRunbar tr.odd:hover,
+	#ENoDataRunbar tr.odd:hover tr.odd:hover {
+	background-color: #ddd;
+}
+
+#EGreenRunbar tr.odd:hover td.sorting_1, #EAmberRunbar tr.odd:hover td.sorting_1,
+	#ERedRunbar tr.odd:hover td.sorting_1, #ENoDataRunbar tr.odd:hover td.sorting_1,
+	#pricompleted tr.odd:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#EGreenRunbar tr.odd:hover td.sorting_2, #EAmberRunbar tr.odd:hover td.sorting_2,
+	#ERedRunbar tr.odd:hover td.sorting_2, #ENoDataRunbar tr.odd:hover td.sorting_2,
+	#pricompleted tr.odd:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#EGreenRunbar tr.odd:hover td.sorting_3, #EAmberRunbar tr.odd:hover td.sorting_3,
+	#ERedRunbar tr.odd:hover td.sorting_3, #ENoDataRunbar tr.odd:hover td.sorting_3,
+	#pricompleted tr.odd:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#EGreenRunbar th, #EAmberRunbar th, #ERedRunbar th, #ENoDataRunbar th,
+	#pricompleted th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #66b3ff;
+	color: white;
+}
+
+#EGreenRunbar td, #EAmberRunbar td, #ERedRunbar td, #ENoDataRunbar td,
+	#pricompleted td, #EGreenRunbar th, #EAmberRunbar th, #ERedRunbar th,
+	#ENoDataRunbar th th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#WGreenRunbar, #WAmberRunbar, #WRedRunbar, #WNoDataRunbar {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#WGreenRunbar  tbody tr.even:hover, #WAmberRunbar  tbody tr.even:hover,
+	#WRedRunbar tbody tr.even:hover, #WGreenRunbar tbody tr.even td.highlighted,
+	#WAmberRunbar tbody tr.even td.highlighted, #WRedRunbar tbody tr.even td.highlighted,
+	#WNoDataRunbar tbody tr.even td.highlighted, #WRedRunbar tbody tr.even td.highlighted,
+	#pricompleted tbody tr.even td.highlighted {
+	background-color: #ddd;
+}
+
+#WGreenRunbar tbody tr.odd:hover, #WAmberRunbar tbody tr.odd:hover,
+	#WRedRunbar tbody tr.odd:hover, #WGreenRunbar tbody tr.odd td.highlighted,
+	#WAmberRunbar tbody tr.odd td.highlighted, #WRedRunbar tbody tr.odd td.highlighted,
+	#WNoDataRunbar tbody tr.odd td.highlighted tbody tr.odd td.highlighted
+	{
+	background-color: #ddd;
+}
+
+#WGreenRunbar  tr.even:hover, #WAmberRunbar  tr.even:hover, #WRedRunbar tr.even:hover,
+	#WNoDataRunbar tr.even:hover tr.even:hover {
+	background-color: #ddd;
+}
+
+#WGreenRunbar tr.even:hover td.sorting_1, #WAmberRunbar tr.even:hover td.sorting_1,
+	#WRedRunbar tr.even:hover td.sorting_1, #WNoDataRunbar tr.even:hover td.sorting_1,
+	#pricompleted tr.even:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#WGreenRunbar tr.even:hover td.sorting_2, #WAmberRunbar tr.even:hover td.sorting_2,
+	#WRedRunbar tr.even:hover td.sorting_2, #WNoDataRunbar tr.even:hover td.sorting_2,
+	#pricompleted tr.even:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#WGreenRunbar tr.even:hover td.sorting_3, #WAmberRunbar tr.even:hover td.sorting_3,
+	#WRedRunbar tr.even:hover td.sorting_3, #WNoDataRunbar tr.even:hover td.sorting_3,
+	#pricompleted tr.even:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#WGreenRunbar td, #WAmberRunbar td, #WRedRunbar td, #WNoDataRunbar td,
+	#pricompleted td, #WGreenRunbar th, #WAmberRunbar th, #WRedRunbar th,
+	#WNoDataRunbar th th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#WGreenRunbar tr.odd:hover, #WAmberRunbar tr.odd:hover, #WRedRunbar tr.odd:hover,
+	#WNoDataRunbar tr.odd:hover tr.odd:hover {
+	background-color: #ddd;
+}
+
+#WGreenRunbar tr.odd:hover td.sorting_1, #WAmberRunbar tr.odd:hover td.sorting_1,
+	#WRedRunbar tr.odd:hover td.sorting_1, #WNoDataRunbar tr.odd:hover td.sorting_1,
+	#pricompleted tr.odd:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#WGreenRunbar tr.odd:hover td.sorting_2, #WAmberRunbar tr.odd:hover td.sorting_2,
+	#WRedRunbar tr.odd:hover td.sorting_2, #WNoDataRunbar tr.odd:hover td.sorting_2,
+	#pricompleted tr.odd:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#WGreenRunbar tr.odd:hover td.sorting_3, #WAmberRunbar tr.odd:hover td.sorting_3,
+	#WRedRunbar tr.odd:hover td.sorting_3, #WNoDataRunbar tr.odd:hover td.sorting_3,
+	#pricompleted tr.odd:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#WGreenRunbar th, #WAmberRunbar th, #WRedRunbar th, #WNoDataRunbar th,
+	#pricompleted th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #66b3ff;
+	color: white;
+}
+
+#WGreenRunbar td, #WAmberRunbar td, #WRedRunbar td, #WNoDataRunbar td,
+	#pricompleted td, #WGreenRunbar th, #WAmberRunbar th, #WRedRunbar th,
+	#WNoDataRunbar th th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#NGreenRunbar, #NAmberRunbar, #NRedRunbar, #NNoDataRunbar {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#NGreenRunbar  tbody tr.even:hover, #NAmberRunbar  tbody tr.even:hover,
+	#NRedRunbar tbody tr.even:hover, #NGreenRunbar tbody tr.even td.highlighted,
+	#NAmberRunbar tbody tr.even td.highlighted, #NRedRunbar tbody tr.even td.highlighted,
+	#NNoDataRunbar tbody tr.even td.highlighted, #NRedRunbar tbody tr.even td.highlighted,
+	#pricompleted tbody tr.even td.highlighted {
+	background-color: #ddd;
+}
+
+#NGreenRunbar tbody tr.odd:hover, #NAmberRunbar tbody tr.odd:hover,
+	#NRedRunbar tbody tr.odd:hover, #NGreenRunbar tbody tr.odd td.highlighted,
+	#NAmberRunbar tbody tr.odd td.highlighted, #NRedRunbar tbody tr.odd td.highlighted,
+	#NNoDataRunbar tbody tr.odd td.highlighted tbody tr.odd td.highlighted
+	{
+	background-color: #ddd;
+}
+
+#NGreenRunbar  tr.even:hover, #NAmberRunbar  tr.even:hover, #NRedRunbar tr.even:hover,
+	#NNoDataRunbar tr.even:hover tr.even:hover {
+	background-color: #ddd;
+}
+
+#NGreenRunbar tr.even:hover td.sorting_1, #NAmberRunbar tr.even:hover td.sorting_1,
+	#NRedRunbar tr.even:hover td.sorting_1, #NNoDataRunbar tr.even:hover td.sorting_1,
+	#pricompleted tr.even:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#NGreenRunbar tr.even:hover td.sorting_2, #NAmberRunbar tr.even:hover td.sorting_2,
+	#NRedRunbar tr.even:hover td.sorting_2, #NNoDataRunbar tr.even:hover td.sorting_2,
+	#pricompleted tr.even:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#NGreenRunbar tr.even:hover td.sorting_3, #NAmberRunbar tr.even:hover td.sorting_3,
+	#NRedRunbar tr.even:hover td.sorting_3, #NNoDataRunbar tr.even:hover td.sorting_3,
+	#pricompleted tr.even:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#NGreenRunbar td, #NAmberRunbar td, #NRedRunbar td, #NNoDataRunbar td,
+	#pricompleted td, #NGreenRunbar th, #NAmberRunbar th, #NRedRunbar th,
+	#NNoDataRunbar th th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#NGreenRunbar tr.odd:hover, #NAmberRunbar tr.odd:hover, #NRedRunbar tr.odd:hover,
+	#NNoDataRunbar tr.odd:hover tr.odd:hover {
+	background-color: #ddd;
+}
+
+#NGreenRunbar tr.odd:hover td.sorting_1, #NAmberRunbar tr.odd:hover td.sorting_1,
+	#NRedRunbar tr.odd:hover td.sorting_1, #NNoDataRunbar tr.odd:hover td.sorting_1,
+	#pricompleted tr.odd:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#NGreenRunbar tr.odd:hover td.sorting_2, #NAmberRunbar tr.odd:hover td.sorting_2,
+	#NRedRunbar tr.odd:hover td.sorting_2, #NNoDataRunbar tr.odd:hover td.sorting_2,
+	#pricompleted tr.odd:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#NGreenRunbar tr.odd:hover td.sorting_3, #NAmberRunbar tr.odd:hover td.sorting_3,
+	#NRedRunbar tr.odd:hover td.sorting_3, #NNoDataRunbar tr.odd:hover td.sorting_3,
+	#pricompleted tr.odd:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#NGreenRunbar th, #NAmberRunbar th, #NRedRunbar th, #NNoDataRunbar th,
+	#pricompleted th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #66b3ff;
+	color: white;
+}
+
+#NGreenRunbar td, #NAmberRunbar td, #NRedRunbar td, #NNoDataRunbar td,
+	#pricompleted td, #NGreenRunbar th, #NAmberRunbar th, #NRedRunbar th,
+	#NNoDataRunbar th th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#SGreenRunbar, #SAmberRunbar, #SRedRunbar, #SNoDataRunbar {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#SGreenRunbar  tbody tr.even:hover, #SAmberRunbar  tbody tr.even:hover,
+	#SRedRunbar tbody tr.even:hover, #SGreenRunbar tbody tr.even td.highlighted,
+	#SAmberRunbar tbody tr.even td.highlighted, #SRedRunbar tbody tr.even td.highlighted,
+	#SNoDataRunbar tbody tr.even td.highlighted, #SRedRunbar tbody tr.even td.highlighted,
+	#pricompleted tbody tr.even td.highlighted {
+	background-color: #ddd;
+}
+
+#SGreenRunbar tbody tr.odd:hover, #SAmberRunbar tbody tr.odd:hover,
+	#SRedRunbar tbody tr.odd:hover, #SGreenRunbar tbody tr.odd td.highlighted,
+	#SAmberRunbar tbody tr.odd td.highlighted, #SRedRunbar tbody tr.odd td.highlighted,
+	#SNoDataRunbar tbody tr.odd td.highlighted tbody tr.odd td.highlighted
+	{
+	background-color: #ddd;
+}
+
+#SGreenRunbar  tr.even:hover, #SAmberRunbar  tr.even:hover, #SRedRunbar tr.even:hover,
+	#SNoDataRunbar tr.even:hover tr.even:hover {
+	background-color: #ddd;
+}
+
+#SGreenRunbar tr.even:hover td.sorting_1, #SAmberRunbar tr.even:hover td.sorting_1,
+	#SRedRunbar tr.even:hover td.sorting_1, #SNoDataRunbar tr.even:hover td.sorting_1,
+	#pricompleted tr.even:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#SGreenRunbar tr.even:hover td.sorting_2, #SAmberRunbar tr.even:hover td.sorting_2,
+	#SRedRunbar tr.even:hover td.sorting_2, #SNoDataRunbar tr.even:hover td.sorting_2,
+	#pricompleted tr.even:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#SGreenRunbar tr.even:hover td.sorting_3, #SAmberRunbar tr.even:hover td.sorting_3,
+	#SRedRunbar tr.even:hover td.sorting_3, #SNoDataRunbar tr.even:hover td.sorting_3,
+	#pricompleted tr.even:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#SGreenRunbar td, #SAmberRunbar td, #SRedRunbar td, #SNoDataRunbar td,
+	#pricompleted td, #SGreenRunbar th, #SAmberRunbar th, #SRedRunbar th,
+	#SNoDataRunbar th th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#SGreenRunbar tr.odd:hover, #SAmberRunbar tr.odd:hover, #SRedRunbar tr.odd:hover,
+	#SNoDataRunbar tr.odd:hover tr.odd:hover {
+	background-color: #ddd;
+}
+
+#SGreenRunbar tr.odd:hover td.sorting_1, #SAmberRunbar tr.odd:hover td.sorting_1,
+	#SRedRunbar tr.odd:hover td.sorting_1, #SNoDataRunbar tr.odd:hover td.sorting_1,
+	#pricompleted tr.odd:hover td.sorting_1 {
+	background-color: #ddd;
+}
+
+#SGreenRunbar tr.odd:hover td.sorting_2, #SAmberRunbar tr.odd:hover td.sorting_2,
+	#SRedRunbar tr.odd:hover td.sorting_2, #SNoDataRunbar tr.odd:hover td.sorting_2,
+	#pricompleted tr.odd:hover td.sorting_2 {
+	background-color: #ddd;
+}
+
+#SGreenRunbar tr.odd:hover td.sorting_3, #SAmberRunbar tr.odd:hover td.sorting_3,
+	#SRedRunbar tr.odd:hover td.sorting_3, #SNoDataRunbar tr.odd:hover td.sorting_3,
+	#pricompleted tr.odd:hover td.sorting_3 {
+	background-color: #ddd;
+}
+
+#SGreenRunbar th, #SAmberRunbar th, #SRedRunbar th, #SNoDataRunbar th,
+	#pricompleted th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #66b3ff;
+	color: white;
+}
+
+#SGreenRunbar td, #SAmberRunbar td, #SRedRunbar td, #SNoDataRunbar td,
+	#pricompleted td, #SGreenRunbar th, #SAmberRunbar th, #SRedRunbar th,
+	#SNoDataRunbar th th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
